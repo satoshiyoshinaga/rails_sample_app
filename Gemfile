@@ -14,6 +14,8 @@ gem 'spring',        group: :development
 group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.14.1'
+  gem 'guard-rspec'
+  gem 'growl'
 end
 
 group :test do
